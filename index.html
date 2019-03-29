@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game puzzle</title>
+</head>
+<body>
+<img id="panda1" src="img/panda1.jpg" height="150" width="800" onclick="click1()"></br>
+<img id="panda2" src="img/panda2.jpg" height="150" width="800" onclick="click2()"></br>
+<img id="panda3" src="img/panda3.jpg" height="150" width="800" onclick="click3()"></br>
+<img id="panda4" src="img/panda4.jpg" height="150" width="800" onclick="click4()"></br>
+<img id="panda5" src="img/panda5.jpg" height="150" width="800" onclick="click5()">
+</body>
+<script>
+    let count = 0;
+    function click1 () {
+        switch (count) {
+            case 0:
+                panda1.src = "img/cat1.jpg";
+                count++;
+                break;
+            case 1:
+                panda1.src = "img/monkey1.jpg";
+                count++;
+                break;
+            case 2:
+                panda1.src = "img/panda1.jpg";
+                count = 0;
+                break;
+        }
+    }
+    function click2 () {
+        switch (count) {
+            case 0:
+                panda2.src = "img/cat2.jpg";
+                count++;
+                break;
+            case 1:
+                panda2.src = "img/monkey2.jpg";
+                count++;
+                break;
+            case 2:
+                panda2.src = "img/panda2.jpg";
+                count = 0;
+                break;
+        }
+    }
+    function click3 () {
+        switch (count) {
+            case 0:
+                panda3.src = "img/cat3.jpg";
+                count++;
+                break;
+            case 1:
+                panda3.src = "img/monkey3.jpg";
+                count++;
+                break;
+            case 2:
+                panda3.src = "img/panda3.jpg";
+                count = 0;
+                break;
+        }
+    }
+    function click4 () {
+        switch (count) {
+            case 0:
+                panda4.src = "img/cat4.jpg";
+                count++;
+                break;
+            case 1:
+                panda4.src = "img/monkey4.jpg";
+                count++;
+                break;
+            case 2:
+                panda4.src = "img/panda4.jpg";
+                count = 0;
+                break;
+        }
+    }
+    function click5 () {
+        switch (count) {
+            case 0:
+                panda5.src = "img/cat5.jpg";
+                count++;
+                break;
+            case 1:
+                panda5.src = "img/monkey5.jpg";
+                count++;
+                break;
+            case 2:
+                panda5.src = "img/panda5.jpg";
+                count = 0;
+                break;
+        }
+    }
+</script>
+</html>
